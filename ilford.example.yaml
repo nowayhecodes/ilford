@@ -1,0 +1,6 @@
+---
+authorization_api_url: "https://auth.ilford.com/api/v1/authorization"
+services:
+  - path: "/users"
+    target: "http://user-service.default.svc.cluster.cluster-name"
+    port: "8080"
