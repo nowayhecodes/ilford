@@ -21,4 +21,3 @@ pub fn load_config(path: &str) -> Config {
     file.read_to_string(&mut contents).unwrap();
     serde_yaml::from_str(&contents).unwrap()
 }
-
